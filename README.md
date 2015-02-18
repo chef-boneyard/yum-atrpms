@@ -181,7 +181,7 @@ include_recipe 'yum-atrpms'
 
 License & Authors
 -----------------
-- Author:: Sean OMeara (<someara@getchef.com>)
+- Author:: Sean OMeara (<someara@chef.io>)
 
 ```text
 Copyright:: 2011-2014 Chef Software, Inc.

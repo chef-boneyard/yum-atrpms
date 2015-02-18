@@ -1,5 +1,5 @@
 #
-# Author:: Sean OMeara (<someara@getchef.com>)
+# Author:: Sean OMeara (<someara@chef.io>)
 # Recipe:: yum-atrpms::default
 #
 # Copyright 2014, Chef Software, Inc.

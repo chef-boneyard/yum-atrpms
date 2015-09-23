@@ -3,7 +3,7 @@ require 'spec_helper'
 describe 'yum-atrpms::default' do
   context 'yum-atrpms::default uses default attributes' do
     let(:chef_run) do
-      ChefSpec::Runner.new do |node|
+      ChefSpec::ServerRunner.new do |node|
         node.set['yum']['atrpms']['managed'] = true
         node.set['yum']['atrpms-debuginfo']['managed'] = true
         node.set['yum']['atrpms-source']['managed'] = true

@@ -20,7 +20,6 @@ Requirements
 
 #### Cookbooks
 * yum version 3.2.0 or higher
-* yum-epel
 
 
 Attributes

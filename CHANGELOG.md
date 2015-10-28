@@ -2,6 +2,10 @@ yum-atrpms Cookbook CHANGELOG
 ======================
 This file is used to list changes made in each version of the yum-atrpms cookbook.
 
+v0.1.2 (2015-10-28)
+-------------------
+- Fixing Chef 13 warnings by not passing nils
+
 v0.1.1 (2015-09-22)
 -------------------
 - Add support for Amazon linux

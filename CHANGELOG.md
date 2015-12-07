@@ -1,17 +1,13 @@
-yum-atrpms Cookbook CHANGELOG
-======================
+# yum-atrpms Cookbook CHANGELOG
 This file is used to list changes made in each version of the yum-atrpms cookbook.
 
-v0.1.3 (2015-12-01)
--------------------
+## v0.1.3 (2015-12-01)
 - Fixing if/unless logic in recipes
 
-v0.1.2 (2015-10-28)
--------------------
+## v0.1.2 (2015-10-28)
 - Fixing Chef 13 warnings by not passing nils
 
-v0.1.1 (2015-09-22)
--------------------
+## v0.1.1 (2015-09-22)
 - Add support for Amazon linux
 - Update yum depencency from ~3.0 to ~3.2
 - Added source_url and issues_url metadata
@@ -26,7 +22,5 @@ v0.1.1 (2015-09-22)
 - Add standard Gemfile with testing and development dependencies
 - Update Chefspec config to 4.X format
 
-v0.1.0 (2014-09-22)
--------------------
+## v0.1.0 (2014-09-22)
 - Initial Release
-

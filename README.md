@@ -142,7 +142,7 @@ default['yum']['atrpms-bleeding-source']['managed'] = true
 ## Usage Example
 To disable the atrpms repository through a Role or Environment definition
 
-```
+```ruby
 default_attributes(
   :yum => {
     :atrpms => {
@@ -156,7 +156,7 @@ default_attributes(
 
 Uncommonly used repositoryids are not managed by default. This is speeds up integration testing pipelines by avoiding yum-cache builds that nobody cares about. To enable the atrpms-testing repository with a wrapper cookbook, place the following in a recipe:
 
-```
+```ruby
 node.default['yum']['atrpms-testing']['enabled'] = true
 node.default['yum']['atrpms-testing']['managed'] = true
 include_recipe 'yum-atrpms'
@@ -165,7 +165,7 @@ include_recipe 'yum-atrpms'
 ## More Examples
 Point the atrpms repositories at an internally hosted server.
 
-```
+```ruby
 node.default['yum']['atrpms']['enabled'] = true
 node.default['yum']['atrpms']['mirrorlist'] = nil
 node.default['yum']['atrpms']['baseurl'] = 'https://internal.example.com/atrpms/6/stable'

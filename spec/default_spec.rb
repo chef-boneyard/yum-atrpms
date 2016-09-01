@@ -2,17 +2,17 @@ require 'spec_helper'
 
 describe 'yum-atrpms::default' do
   context 'yum-atrpms::default uses default attributes' do
-    let(:chef_run) do
+    cached(:chef_run) do
       ChefSpec::ServerRunner.new do |node|
-        node.set['yum']['atrpms']['managed'] = true
-        node.set['yum']['atrpms-debuginfo']['managed'] = true
-        node.set['yum']['atrpms-source']['managed'] = true
-        node.set['yum']['atrpms-testing']['managed'] = true
-        node.set['yum']['atrpms-testing-debuginfo']['managed'] = true
-        node.set['yum']['atrpms-testing-source']['managed'] = true
-        node.set['yum']['atrpms-bleeding']['managed'] = true
-        node.set['yum']['atrpms-bleeding-debuginfo']['managed'] = true
-        node.set['yum']['atrpms-bleeding-source']['managed'] = true
+        node.normal['yum']['atrpms']['managed'] = true
+        node.normal['yum']['atrpms-debuginfo']['managed'] = true
+        node.normal['yum']['atrpms-source']['managed'] = true
+        node.normal['yum']['atrpms-testing']['managed'] = true
+        node.normal['yum']['atrpms-testing-debuginfo']['managed'] = true
+        node.normal['yum']['atrpms-testing-source']['managed'] = true
+        node.normal['yum']['atrpms-bleeding']['managed'] = true
+        node.normal['yum']['atrpms-bleeding-debuginfo']['managed'] = true
+        node.normal['yum']['atrpms-bleeding-source']['managed'] = true
       end.converge(described_recipe)
     end
 

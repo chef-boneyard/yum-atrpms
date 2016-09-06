@@ -1,6 +1,12 @@
 # yum-atrpms Cookbook CHANGELOG
 This file is used to list changes made in each version of the yum-atrpms cookbook.
 
+## 1.0.0 (2016-09-06)
+- Testing updates
+- Resolve rubocop warnings
+- Add chef_version metadata
+- Remove Chef 11 support
+
 ## v0.1.3 (2015-12-01)
 - Fixing if/unless logic in recipes
 

@@ -3,7 +3,7 @@ maintainer 'Chef Software, Inc.'
 maintainer_email 'cookbooks@chef.io'
 license 'Apache 2.0'
 description 'Installs and configures the atrpms Yum repository'
-version '0.1.3'
+version '1.0.0'
 
 depends 'yum', '>= 3.2', '< 5.0'
 

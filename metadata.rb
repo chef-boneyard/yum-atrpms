@@ -5,7 +5,7 @@ license 'Apache 2.0'
 description 'Installs and configures the atrpms Yum repository'
 version '0.1.3'
 
-depends 'yum', '~> 3.2'
+depends 'yum', '>= 3.2', '< 5.0'
 
 %w(amazon centos fedora oracle redhat scientific).each do |os|
   supports os

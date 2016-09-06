@@ -9,7 +9,7 @@ The yum-atrpms cookbook takes over management of the default repositoryids shipp
 - Fedora
 
 ### Chef
-- Chef 11+
+- Chef 12+
 
 ### Cookbooks
 - yum version 3.2.0 or higher

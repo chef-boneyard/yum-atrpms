@@ -1,6 +1,10 @@
 # yum-atrpms Cookbook CHANGELOG
 This file is used to list changes made in each version of the yum-atrpms cookbook.
 
+## 2.0.0 (2016-11-25)
+- Replace yum dependency with compat_resource
+- Convert to inspec from bats
+
 ## 1.0.0 (2016-09-06)
 - Testing updates
 - Resolve rubocop warnings

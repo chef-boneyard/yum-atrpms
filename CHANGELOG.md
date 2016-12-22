@@ -1,6 +1,11 @@
 # yum-atrpms Cookbook CHANGELOG
 This file is used to list changes made in each version of the yum-atrpms cookbook.
 
+## 2.0.1 (2016-12-22)
+
+- Deprecate this cookbook as the atrpms repo is no more
+- Depend on the latest compat_resource cookbook
+
 ## 2.0.0 (2016-11-25)
 - Replace yum dependency with compat_resource
 - Convert to inspec from bats

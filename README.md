@@ -4,6 +4,10 @@
 
 The yum-atrpms cookbook takes over management of the default repositoryids shipped with atrpms-release. It allows attribute manipulation of `atrpms`, `atrpms-debuginfo`, `atrpms-source`, `atrpms-testing`, `atrpms-testing-debuginfo`, `atrpms-testing-source`, `atrpms-bleeding`, `atrpms-bleeding-debuginfo`, and `atrpms-bleeding-source`
 
+## Deprecation
+
+The atrpms repos are no longer available. This cookbook has been deprecated as there is no longer a need to manage these repositiories
+
 ## Requirements
 
 ### Platforms
